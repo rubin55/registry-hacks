@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\Shell\Vim]
+@="Open with &Vim"
+"Icon"="\"C:\\Program Files (x86)\\Vim\\vim90\\gvim.exe\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Vim\command]
+;@="\"C:\\Program Files\\Vim\\gvim.exe\" -p --remote-silent \"%1\""
+@="\"C:\\Users\\rubin\\Syncthing\\Source\\Rubin\\scripts\\batch\\vi.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Vim]
+@="Open with &Vim"
+"Icon"="\"C:\\Program Files (x86)\\Vim\\vim90\\gvim.exe\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Vim\command]
+;@="\"C:\\Program Files\\Vim\\gvim.exe\" -p --remote-silent \"%1\""
+@="\"C:\\Users\\rubin\\Syncthing\\Source\\Rubin\\scripts\\batch\\vi.bat\" \"%1\""

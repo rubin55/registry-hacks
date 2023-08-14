@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\Shell\Emacs]
+@="Open with &Emacs"
+"Icon"="\"C:\\Program Files\\Emacs\\emacs28\\bin\\emacs.exe\",0"
+
+[HKEY_CLASSES_ROOT\*\Shell\Emacs\command]
+@="\"C:\\Users\\rubin\\Syncthing\\Source\\RAAF\\scripts\\batch\\em.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Emacs]
+@="Open with &Emacs"
+"Icon"="\"C:\\Program Files\\Emacs\\emacs28\\bin\\emacs.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Emacs\command]
+@="\"C:\\Users\\rubin\\Syncthing\\Source\\RAAF\\scripts\\batch\\em.bat\" \"%1\""

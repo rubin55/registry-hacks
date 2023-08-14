@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Rubin Simons
+
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{D4B7315C-2F7D-495F-9368-61D8B4E23413}]
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Wow6432Node\CLSID\{D4B7315C-2F7D-495F-9368-61D8B4E23413}]
+
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{D4B7315C-2F7D-495F-9368-61D8B4E23413}]
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{D4B7315C-2F7D-495F-9368-61D8B4E23413}"=-

@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: May 1st 2016
+; Tutorial: http://www.tenforums.com/tutorials/48991-google-drive-navigation-pane-add-remove-windows-10-a.html
+
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}"=-
